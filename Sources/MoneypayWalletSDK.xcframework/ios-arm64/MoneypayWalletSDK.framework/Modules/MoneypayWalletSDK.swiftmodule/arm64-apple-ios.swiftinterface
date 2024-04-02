@@ -1,0 +1,153 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MoneypayWalletSDK
+import ARKit
+import AVFoundation
+import Alamofire
+import CoreImage
+import CoreMotion
+import DeveloperToolsSupport
+import Foundation
+import IdentifySDK
+import Starscream
+import Swift
+import SwiftUI
+import UIKit
+import Vision
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct Quadrilateral {
+  public var topLeft: CoreFoundation.CGPoint
+  public var topRight: CoreFoundation.CGPoint
+  public var bottomRight: CoreFoundation.CGPoint
+  public var bottomLeft: CoreFoundation.CGPoint
+  public var description: Swift.String {
+    get
+  }
+}
+extension MoneypayWalletSDK.Quadrilateral : Swift.Equatable {
+  public static func == (lhs: MoneypayWalletSDK.Quadrilateral, rhs: MoneypayWalletSDK.Quadrilateral) -> Swift.Bool
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class ScannerViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override final public func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public enum ScannerMode : Swift.Codable {
+  case idCard
+  case addressScan
+  public static func == (a: MoneypayWalletSDK.ScannerMode, b: MoneypayWalletSDK.ScannerMode) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol CameraScannerViewOutputDelegate : AnyObject {
+  func captureImageFailWithError(error: any Swift.Error)
+  func captureImageSuccess(image: UIKit.UIImage, withQuad quad: MoneypayWalletSDK.Quadrilateral?)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class CameraScannerViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) final public var isAutoScanEnabled: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) weak final public var delegate: (any MoneypayWalletSDK.CameraScannerViewOutputDelegate)?
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override final public func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) final public func capture()
+  @_Concurrency.MainActor(unsafe) final public func toggleFlash()
+  @_Concurrency.MainActor(unsafe) final public func toggleAutoScan()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public protocol ImageScannerControllerDelegate : ObjectiveC.NSObjectProtocol {
+  func imageScannerController(_ scanner: MoneypayWalletSDK.ImageScannerController, didFinishScanningWithResults results: MoneypayWalletSDK.ImageScannerResults)
+  func imageScannerControllerDidCancel(_ scanner: MoneypayWalletSDK.ImageScannerController)
+  func imageScannerController(_ scanner: MoneypayWalletSDK.ImageScannerController, didFailWithError error: any Swift.Error)
+}
+@objc @_Concurrency.MainActor(unsafe) final public class ImageScannerController : UIKit.UINavigationController {
+  @_Concurrency.MainActor(unsafe) weak final public var imageScannerDelegate: (any MoneypayWalletSDK.ImageScannerControllerDelegate)?
+  @_Concurrency.MainActor(unsafe) @objc override final public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) required public init(image: UIKit.UIImage? = nil, delegate: (any MoneypayWalletSDK.ImageScannerControllerDelegate)? = nil, enabledAutoCapture: Swift.Bool? = false, scannerMode: MoneypayWalletSDK.ScannerMode? = .idCard)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) final public func useImage(image: UIKit.UIImage)
+  @_Concurrency.MainActor(unsafe) final public func resetScanner()
+  @objc deinit
+}
+public struct ImageScannerScan {
+  public enum ImageScannerError : Swift.Error {
+    case failedToGeneratePDF
+    public static func == (a: MoneypayWalletSDK.ImageScannerScan.ImageScannerError, b: MoneypayWalletSDK.ImageScannerScan.ImageScannerError) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var image: UIKit.UIImage
+  public func generatePDFData(completion: @escaping (Swift.Result<Foundation.Data, MoneypayWalletSDK.ImageScannerScan.ImageScannerError>) -> Swift.Void)
+}
+public struct ImageScannerResults {
+  public var originalScan: MoneypayWalletSDK.ImageScannerScan
+  public var croppedScan: MoneypayWalletSDK.ImageScannerScan
+  public var enhancedScan: MoneypayWalletSDK.ImageScannerScan?
+  public var doesUserPreferEnhancedScan: Swift.Bool
+  public var detectedRectangle: MoneypayWalletSDK.Quadrilateral
+}
+public protocol EditImageViewDelegate : AnyObject {
+  func cropped(image: UIKit.UIImage)
+}
+@objc @_Concurrency.MainActor(unsafe) final public class EditImageViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) weak final public var delegate: (any MoneypayWalletSDK.EditImageViewDelegate)?
+  @_Concurrency.MainActor(unsafe) public init(image: UIKit.UIImage, quad: MoneypayWalletSDK.Quadrilateral?, rotateImage: Swift.Bool = true, strokeColor: CoreGraphics.CGColor? = nil)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) final public func cropImage()
+  @_Concurrency.MainActor(unsafe) final public func rotateImage()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class MoneypayWallet {
+  public static func getInstance() -> MoneypayWalletSDK.MoneypayWallet
+  public func initialize(jwt: Swift.String, rootViewController: UIKit.UIViewController)
+  @objc deinit
+}
+extension UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public static func instantiate() -> Self
+}
+public enum ImageScannerControllerError : Swift.Error {
+  case authorization
+  case inputDevice
+  case capture
+  case ciImageCreation
+  public static func == (a: MoneypayWalletSDK.ImageScannerControllerError, b: MoneypayWalletSDK.ImageScannerControllerError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MoneypayWalletSDK.ImageScannerControllerError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+extension MoneypayWalletSDK.ScannerMode : Swift.Equatable {}
+extension MoneypayWalletSDK.ScannerMode : Swift.Hashable {}
+extension MoneypayWalletSDK.ImageScannerScan.ImageScannerError : Swift.Equatable {}
+extension MoneypayWalletSDK.ImageScannerScan.ImageScannerError : Swift.Hashable {}
+extension MoneypayWalletSDK.ImageScannerControllerError : Swift.Equatable {}
+extension MoneypayWalletSDK.ImageScannerControllerError : Swift.Hashable {}
