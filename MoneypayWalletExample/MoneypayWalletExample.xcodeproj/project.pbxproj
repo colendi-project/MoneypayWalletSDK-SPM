@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F2314992BBD4C4F002A73EB /* MoneypayWalletSDK-SPM in Frameworks */ = {isa = PBXBuildFile; productRef = 0F2314982BBD4C4F002A73EB /* MoneypayWalletSDK-SPM */; };
 		0F303E402BBC43BC006C6B2D /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0F303E3F2BBC43BC006C6B2D /* IQKeyboardManagerSwift */; };
-		0F303E432BBC43E8006C6B2D /* MoneypayWalletSPM in Frameworks */ = {isa = PBXBuildFile; productRef = 0F303E422BBC43E8006C6B2D /* MoneypayWalletSPM */; };
-		0F7B50B22BBC6EFC008CBC32 /* MoneypayWalletSPM in Frameworks */ = {isa = PBXBuildFile; productRef = 0F7B50B12BBC6EFC008CBC32 /* MoneypayWalletSPM */; };
 		0FCC8F102B754B980029EE8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCC8F0F2B754B980029EE8A /* AppDelegate.swift */; };
 		0FCC8F122B754B980029EE8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCC8F112B754B980029EE8A /* SceneDelegate.swift */; };
 		0FCC8F142B754B980029EE8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCC8F132B754B980029EE8A /* ViewController.swift */; };
@@ -50,20 +49,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F303E432BBC43E8006C6B2D /* MoneypayWalletSPM in Frameworks */,
-				0F7B50B22BBC6EFC008CBC32 /* MoneypayWalletSPM in Frameworks */,
 				0F303E402BBC43BC006C6B2D /* IQKeyboardManagerSwift in Frameworks */,
+				0F2314992BBD4C4F002A73EB /* MoneypayWalletSDK-SPM in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F2314962BBD4BBA002A73EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0FCC8F032B754B980029EE8A = {
 			isa = PBXGroup;
 			children = (
 				0FCC8F0E2B754B980029EE8A /* MoneypayWalletExample */,
 				0F7949032BBC731B00A15F96 /* MoneypayWalletExample.app */,
+				0F2314962BBD4BBA002A73EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,8 +108,7 @@
 			name = MoneypayWalletExample;
 			packageProductDependencies = (
 				0F303E3F2BBC43BC006C6B2D /* IQKeyboardManagerSwift */,
-				0F303E422BBC43E8006C6B2D /* MoneypayWalletSPM */,
-				0F7B50B12BBC6EFC008CBC32 /* MoneypayWalletSPM */,
+				0F2314982BBD4C4F002A73EB /* MoneypayWalletSDK-SPM */,
 			);
 			productName = MoneypayWalletExample;
 			productReference = 0F7949032BBC731B00A15F96 /* MoneypayWalletExample.app */;
@@ -135,7 +140,7 @@
 			mainGroup = 0FCC8F032B754B980029EE8A;
 			packageReferences = (
 				0F303E3E2BBC43BC006C6B2D /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
-				0F7B50B02BBC6EFC008CBC32 /* XCLocalSwiftPackageReference "../" */,
+				0F2314972BBD4C4F002A73EB /* XCLocalSwiftPackageReference "../" */,
 			);
 			productRefGroup = 0FCC8F032B754B980029EE8A;
 			projectDirPath = "";
@@ -404,7 +409,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		0F7B50B02BBC6EFC008CBC32 /* XCLocalSwiftPackageReference "../" */ = {
+		0F2314972BBD4C4F002A73EB /* XCLocalSwiftPackageReference "../" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../;
 		};
@@ -422,18 +427,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		0F2314982BBD4C4F002A73EB /* MoneypayWalletSDK-SPM */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "MoneypayWalletSDK-SPM";
+		};
 		0F303E3F2BBC43BC006C6B2D /* IQKeyboardManagerSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 0F303E3E2BBC43BC006C6B2D /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
 			productName = IQKeyboardManagerSwift;
-		};
-		0F303E422BBC43E8006C6B2D /* MoneypayWalletSPM */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = MoneypayWalletSPM;
-		};
-		0F7B50B12BBC6EFC008CBC32 /* MoneypayWalletSPM */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = MoneypayWalletSPM;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

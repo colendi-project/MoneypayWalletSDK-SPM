@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         initializeMoneypayWalletSdk()
     }
     
-    func initializeMoneypayWalletSdk(jwt: String) {
+    func initializeMoneypayWalletSdk() {
         let jwt = textfield.text
         if let jwt = jwt {
             MoneypayWallet.getInstance().initialize(jwt: jwt, rootViewController: self)

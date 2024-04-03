@@ -4,15 +4,15 @@
 import PackageDescription
 
 let package = Package(
-    name: "MoneypayWalletSPM",
+    name: "MoneypayWalletSDK-SPM",
     defaultLocalization: "tr",
     platforms: [
         .iOS(.v13),
     ],
     products: [
         .library(
-            name: "MoneypayWalletSPM",
-            targets: ["MoneypayWalletSPM"]),
+            name: "MoneypayWalletSDK-SPM",
+            targets: ["MoneypayWalletSDK-SPM"]),
     ],
     dependencies: [
         .package(url: "https://github.com/Alamofire/Alamofire.git", branch: "master"),
@@ -24,7 +24,7 @@ let package = Package(
         .binaryTarget(name: "IdentifySDK", path: "Sources/IdentifySDK.xcframework"),
         .binaryTarget(name: "MoneypayWalletSDK", path: "Sources/MoneypayWalletSDK.xcframework"),
         .target(
-            name: "MoneypayWalletSPM",
+            name: "MoneypayWalletSDK-SPM",
             dependencies: [
                 "IdentifySDK",
                 "MoneypayWalletSDK",
