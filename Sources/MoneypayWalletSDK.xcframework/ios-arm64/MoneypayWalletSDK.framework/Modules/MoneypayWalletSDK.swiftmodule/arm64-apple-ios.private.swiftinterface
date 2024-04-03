@@ -122,7 +122,7 @@ public protocol EditImageViewDelegate : AnyObject {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class MoneypayWallet {
-  public static func getInstance() -> MoneypayWalletSDK.MoneypayWallet
+  public static var shared: MoneypayWalletSDK.MoneypayWallet
   public func initialize(jwt: Swift.String, rootViewController: UIKit.UIViewController)
   @objc deinit
 }

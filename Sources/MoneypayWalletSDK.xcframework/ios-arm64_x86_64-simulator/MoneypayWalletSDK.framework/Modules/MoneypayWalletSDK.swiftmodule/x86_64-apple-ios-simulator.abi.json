@@ -5171,9 +5171,9 @@
         "printedName": "MoneypayWallet",
         "children": [
           {
-            "kind": "Function",
-            "name": "getInstance",
-            "printedName": "getInstance()",
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5182,16 +5182,93 @@
                 "usr": "s:17MoneypayWalletSDK0aB0C"
               }
             ],
-            "declKind": "Func",
-            "usr": "s:17MoneypayWalletSDK0aB0C11getInstanceACyFZ",
-            "mangledName": "$s17MoneypayWalletSDK0aB0C11getInstanceACyFZ",
+            "declKind": "Var",
+            "usr": "s:17MoneypayWalletSDK0aB0C6sharedACvpZ",
+            "mangledName": "$s17MoneypayWalletSDK0aB0C6sharedACvpZ",
             "moduleName": "MoneypayWalletSDK",
             "static": true,
             "declAttributes": [
+              "HasInitialValue",
               "Final",
+              "HasStorage",
               "AccessControl"
             ],
-            "funcSelfKind": "NonMutating"
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoneypayWallet",
+                    "printedName": "MoneypayWalletSDK.MoneypayWallet",
+                    "usr": "s:17MoneypayWalletSDK0aB0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MoneypayWalletSDK0aB0C6sharedACvgZ",
+                "mangledName": "$s17MoneypayWalletSDK0aB0C6sharedACvgZ",
+                "moduleName": "MoneypayWalletSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoneypayWallet",
+                    "printedName": "MoneypayWalletSDK.MoneypayWallet",
+                    "usr": "s:17MoneypayWalletSDK0aB0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MoneypayWalletSDK0aB0C6sharedACvsZ",
+                "mangledName": "$s17MoneypayWalletSDK0aB0C6sharedACvsZ",
+                "moduleName": "MoneypayWalletSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MoneypayWalletSDK0aB0C6sharedACvMZ",
+                "mangledName": "$s17MoneypayWalletSDK0aB0C6sharedACvMZ",
+                "moduleName": "MoneypayWalletSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
           },
           {
             "kind": "Function",
@@ -10529,14 +10606,14 @@
     {
       "filePath": "\/Users\/gokberkbardakci\/Desktop\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/MoneypayWallet.swift",
       "kind": "BooleanLiteral",
-      "offset": 269,
+      "offset": 294,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/Desktop\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/MoneypayWallet.swift",
       "kind": "StringLiteral",
-      "offset": 1076,
+      "offset": 907,
       "length": 31,
       "value": "\"com.colendi.MoneypayWalletSDK\""
     },

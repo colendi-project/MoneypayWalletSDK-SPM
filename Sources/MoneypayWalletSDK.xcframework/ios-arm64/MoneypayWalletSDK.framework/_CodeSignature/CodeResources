@@ -146,11 +146,11 @@
 		</data>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Byn5xS42A/0qvDvx01dgGo5GHfM=
+		VfHmCLzYzg2WSG76w/P8k61Lbpw=
 		</data>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		TNAXb+XQ4LlHNG0rowlNAhB8PlI=
+		jjTWHmUfKWvkFC4IIOAu23yUZzo=
 		</data>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -158,11 +158,11 @@
 		</data>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		TNAXb+XQ4LlHNG0rowlNAhB8PlI=
+		jjTWHmUfKWvkFC4IIOAu23yUZzo=
 		</data>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		yLJoK8dU1pzbuzO09l5WaXMHYLI=
+		9PpKvfA/0Y3K/MqOGlJjO6y31ZY=
 		</data>
 		<key>NfcInfoContentView.nib</key>
 		<data>
@@ -264,7 +264,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Hsc0c/nEA80iWm93ljfDL1sDGoY=
+			zWMh7L2galYlSZYcZZeqiAb+rFk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -514,14 +514,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TLPVxHoEacdkmdlTH4acQ5S9Jz0s4z1NN+ot+pFeL70=
+			m1QV+xsgdY/8qrb+GC6GjhqrnBcrnjoWjoHasKXt+6w=
 			</data>
 		</dict>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wMaSCHL6H/nZ4jG0sM1QF7RAQZ9UC2GhCJJe/HERLug=
+			V4zxrRmd/WaWBGNxyMu5BvQAKJgFAm9JbIliTfge83s=
 			</data>
 		</dict>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -535,14 +535,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wMaSCHL6H/nZ4jG0sM1QF7RAQZ9UC2GhCJJe/HERLug=
+			V4zxrRmd/WaWBGNxyMu5BvQAKJgFAm9JbIliTfge83s=
 			</data>
 		</dict>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WuAz5dNgnpbXh7JST/bzRcY4d+wTstYIrTQrxyCMZbY=
+			WgR1YKwCAKxCFpwvxylUzGLHtfLaJoEbn60MpcoBc+c=
 			</data>
 		</dict>
 		<key>NfcInfoContentView.nib</key>
@@ -717,7 +717,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r0MZEZaJLUSsftvnJV8vgdLRVZXKtIIfaJiODgSAPx4=
+			hyLu63/gs7a4j8cU87o4ZY21N0htxRwQ0N2dRdpXDlA=
 			</data>
 			<key>optional</key>
 			<true/>

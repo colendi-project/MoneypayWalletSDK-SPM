@@ -146,11 +146,11 @@
 		</data>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		LFchDtwS4BlQw+Pa9LaJetf5310=
+		JgfOUk+up5gDE8WUXl4mAzqjgVk=
 		</data>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		plNDT24UZ4o2TtLv5gZ5/+hrbUg=
+		C//Q6M6gwnBfiKKGRmITnKSUDwE=
 		</data>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -158,19 +158,19 @@
 		</data>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		plNDT24UZ4o2TtLv5gZ5/+hrbUg=
+		C//Q6M6gwnBfiKKGRmITnKSUDwE=
 		</data>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6M6pw3L79jlnfLvduNBQm24h3cA=
+		HMhKuXk6uTpuQQ2g6Pce8zVwINA=
 		</data>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		LFchDtwS4BlQw+Pa9LaJetf5310=
+		JgfOUk+up5gDE8WUXl4mAzqjgVk=
 		</data>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		WbJtOELUz/BKKFfE83jrAQVYI1c=
+		WLGaE3zK7Vf6R3SGlacEejSBASk=
 		</data>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -178,11 +178,11 @@
 		</data>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		WbJtOELUz/BKKFfE83jrAQVYI1c=
+		WLGaE3zK7Vf6R3SGlacEejSBASk=
 		</data>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Afoxiq0NPB2U2LGZ/NsbzbZxLhc=
+		tHRwT5+vQXKA5Xt62NeOyQEu24U=
 		</data>
 		<key>NfcInfoContentView.nib</key>
 		<data>
@@ -284,7 +284,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Hsc0c/nEA80iWm93ljfDL1sDGoY=
+			zWMh7L2galYlSZYcZZeqiAb+rFk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -534,14 +534,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a8in78yAr43EykwN0pJ2KMdnVDpAGWuy9LUSoTEayfY=
+			uHPkX2CQSSjWPExOZRoJf18jwBJPy+PNuaMO1MxjkxI=
 			</data>
 		</dict>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dDKDvZotiDOt8gHVsnTlr9RnFAw9IQWBv4yGAd3thqw=
+			/IQ9el0EP5NeqV7e9/BBh/0FcnVvgU90e0aImgMuQJM=
 			</data>
 		</dict>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -555,28 +555,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dDKDvZotiDOt8gHVsnTlr9RnFAw9IQWBv4yGAd3thqw=
+			/IQ9el0EP5NeqV7e9/BBh/0FcnVvgU90e0aImgMuQJM=
 			</data>
 		</dict>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E2/Jc4Warfn/ILlLeQ2051H5Xv+R39sSOn2Gqc8r1Cs=
+			ryCrc+A+RhUGqn+RJk+L1koxCPSuKpksdHIaZQhDqD8=
 			</data>
 		</dict>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a8in78yAr43EykwN0pJ2KMdnVDpAGWuy9LUSoTEayfY=
+			uHPkX2CQSSjWPExOZRoJf18jwBJPy+PNuaMO1MxjkxI=
 			</data>
 		</dict>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oUQKbRheKHw4NFtYNdXaHVKjYiJGw5TYaNg3tmhVLnY=
+			km1Gr2bdAENJhRwzzgrZxxHUn3vLIY1ciFAqAAXUVO4=
 			</data>
 		</dict>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -590,14 +590,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oUQKbRheKHw4NFtYNdXaHVKjYiJGw5TYaNg3tmhVLnY=
+			km1Gr2bdAENJhRwzzgrZxxHUn3vLIY1ciFAqAAXUVO4=
 			</data>
 		</dict>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5EbQTewHHBZXQ0T9IzR79dAVGwBh8qOVYSzlVszohgw=
+			h6uAWANaNJ8qIGU3LJq8XX5LLNGa8WOwliYKJKObE9I=
 			</data>
 		</dict>
 		<key>NfcInfoContentView.nib</key>
@@ -772,7 +772,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r0MZEZaJLUSsftvnJV8vgdLRVZXKtIIfaJiODgSAPx4=
+			hyLu63/gs7a4j8cU87o4ZY21N0htxRwQ0N2dRdpXDlA=
 			</data>
 			<key>optional</key>
 			<true/>
