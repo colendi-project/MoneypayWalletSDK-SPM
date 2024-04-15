@@ -126,9 +126,6 @@ public protocol EditImageViewDelegate : AnyObject {
   public func initialize(jwt: Swift.String, rootViewController: UIKit.UIViewController)
   @objc deinit
 }
-extension UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) public static func instantiate() -> Self
-}
 public enum ImageScannerControllerError : Swift.Error {
   case authorization
   case inputDevice

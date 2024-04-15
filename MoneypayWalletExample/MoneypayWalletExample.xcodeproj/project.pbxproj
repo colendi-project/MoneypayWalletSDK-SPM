@@ -15,7 +15,6 @@
 		0FCC8F172B754B980029EE8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FCC8F152B754B980029EE8A /* Main.storyboard */; };
 		0FCC8F192B754B990029EE8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FCC8F182B754B990029EE8A /* Assets.xcassets */; };
 		0FCC8F1C2B754B990029EE8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FCC8F1A2B754B990029EE8A /* LaunchScreen.storyboard */; };
-		0FE101AC2BAD87AC00A7C4D5 /* sdkPassportList.pem in Resources */ = {isa = PBXBuildFile; fileRef = 0FE101AB2BAD87AC00A7C4D5 /* sdkPassportList.pem */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,7 +40,6 @@
 		0FCC8F182B754B990029EE8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FCC8F1B2B754B990029EE8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FCC8F1D2B754B990029EE8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0FE101AB2BAD87AC00A7C4D5 /* sdkPassportList.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sdkPassportList.pem; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +74,6 @@
 		0FCC8F0E2B754B980029EE8A /* MoneypayWalletExample */ = {
 			isa = PBXGroup;
 			children = (
-				0FE101AB2BAD87AC00A7C4D5 /* sdkPassportList.pem */,
 				0F1A99682BAC7834001791D0 /* MoneypayWalletExample.entitlements */,
 				0FCC8F0F2B754B980029EE8A /* AppDelegate.swift */,
 				0FCC8F112B754B980029EE8A /* SceneDelegate.swift */,
@@ -157,7 +154,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FCC8F1C2B754B990029EE8A /* LaunchScreen.storyboard in Resources */,
-				0FE101AC2BAD87AC00A7C4D5 /* sdkPassportList.pem in Resources */,
 				0FCC8F192B754B990029EE8A /* Assets.xcassets in Resources */,
 				0FCC8F172B754B980029EE8A /* Main.storyboard in Resources */,
 			);

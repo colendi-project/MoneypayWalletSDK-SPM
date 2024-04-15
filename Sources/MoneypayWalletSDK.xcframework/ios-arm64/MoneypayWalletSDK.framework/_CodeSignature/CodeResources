@@ -146,11 +146,11 @@
 		</data>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		VfHmCLzYzg2WSG76w/P8k61Lbpw=
+		G5xCmmL7F3dlq4f7E4SUXl5nhSo=
 		</data>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		jjTWHmUfKWvkFC4IIOAu23yUZzo=
+		kIB0I0uZYZ8oDrkiqPUkyl4Umbk=
 		</data>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -158,11 +158,11 @@
 		</data>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		jjTWHmUfKWvkFC4IIOAu23yUZzo=
+		kIB0I0uZYZ8oDrkiqPUkyl4Umbk=
 		</data>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		9PpKvfA/0Y3K/MqOGlJjO6y31ZY=
+		cr+9p0x23na5kHPV99Gqv4obsvg=
 		</data>
 		<key>NfcInfoContentView.nib</key>
 		<data>
@@ -196,6 +196,10 @@
 		<data>
 		TRny69jkn+WnxTIe0PoVgIfaR/I=
 		</data>
+		<key>TransactionDetailsVC.nib</key>
+		<data>
+		qzWdE/3QiByYUSDDDFeo8jwYURI=
+		</data>
 		<key>TransactionHistoryCell.nib</key>
 		<data>
 		zHiJmrnmDlD+ea1gzXyIc8IJ6Iw=
@@ -211,6 +215,10 @@
 		<key>WalletAccountCell.nib</key>
 		<data>
 		JuPEHZxv/D8UkGPS1XdRrSbydO0=
+		</data>
+		<key>WalletTransactionDetailCell.nib</key>
+		<data>
+		YDkLYxQaTtQNjCJq0qJfCewVIsI=
 		</data>
 		<key>enhance.png</key>
 		<data>
@@ -264,7 +272,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zWMh7L2galYlSZYcZZeqiAb+rFk=
+			4gceOlkKtkwg/0FXeUcZH5sEeKE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -514,14 +522,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			m1QV+xsgdY/8qrb+GC6GjhqrnBcrnjoWjoHasKXt+6w=
+			11VnTkKeSWYcP1q+s7mlh4a0z4/6cFPRYFTlIXLBSA8=
 			</data>
 		</dict>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V4zxrRmd/WaWBGNxyMu5BvQAKJgFAm9JbIliTfge83s=
+			LK1Gv0bY59CoyzYZCgS8+8vQ2DUmmrJbup2Ps1eknfU=
 			</data>
 		</dict>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -535,14 +543,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V4zxrRmd/WaWBGNxyMu5BvQAKJgFAm9JbIliTfge83s=
+			LK1Gv0bY59CoyzYZCgS8+8vQ2DUmmrJbup2Ps1eknfU=
 			</data>
 		</dict>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WgR1YKwCAKxCFpwvxylUzGLHtfLaJoEbn60MpcoBc+c=
+			u/1xX5cFfWvQSJ+itg+MIMA5I98z/ClNS8x4RAuSc8M=
 			</data>
 		</dict>
 		<key>NfcInfoContentView.nib</key>
@@ -601,6 +609,13 @@
 			2WL+txs2tfh8FwfZN0gUjbZj1I2y7G/3JUUiAEgxWpQ=
 			</data>
 		</dict>
+		<key>TransactionDetailsVC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cJ+uxlCvS5BpY9Shi8ofY7Lg9Yw4Ufr8PBEUukdjZjY=
+			</data>
+		</dict>
 		<key>TransactionHistoryCell.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -627,6 +642,13 @@
 			<key>hash2</key>
 			<data>
 			jUM+bDtLhuxj3wW1njcpoTX4T3LBhSXlWjR2lxFGmN8=
+			</data>
+		</dict>
+		<key>WalletTransactionDetailCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6t8LElUEVqDht9JIt/8VlUsiBJ7NbEmbaHKy31lDh3M=
 			</data>
 		</dict>
 		<key>enhance.png</key>
@@ -717,7 +739,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hyLu63/gs7a4j8cU87o4ZY21N0htxRwQ0N2dRdpXDlA=
+			+6iNE94psmaf/xIPDtUayYTD/DkUouL1tcETyhmksQQ=
 			</data>
 			<key>optional</key>
 			<true/>
