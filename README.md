@@ -73,7 +73,7 @@ class ViewController: UIViewController {
     }
     
     func initializeMoneypayWalletSdk() {
-        MoneypayWallet.shared.initialize(jwt: "ACCESS-TOKEN", rootViewController: self)   
+        MoneypayWallet.shared.initialize(jwt: "ACCESS-TOKEN", rootViewController: self, environment: .dev)   
     }
 }
 

@@ -5283,7 +5283,7 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(jwt:rootViewController:)",
+            "printedName": "initialize(jwt:rootViewController:environment:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5301,11 +5301,17 @@
                 "name": "UIViewController",
                 "printedName": "UIKit.UIViewController",
                 "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MoneypayWalletEnvironment",
+                "printedName": "MoneypayWalletSDK.MoneypayWalletEnvironment",
+                "usr": "s:17MoneypayWalletSDK0aB11EnvironmentO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:17MoneypayWalletSDK0aB0C10initialize3jwt18rootViewControllerySS_So06UIViewH0CtF",
-            "mangledName": "$s17MoneypayWalletSDK0aB0C10initialize3jwt18rootViewControllerySS_So06UIViewH0CtF",
+            "usr": "s:17MoneypayWalletSDK0aB0C10initialize3jwt18rootViewController11environmentySS_So06UIViewH0CAA0aB11EnvironmentOtF",
+            "mangledName": "$s17MoneypayWalletSDK0aB0C10initialize3jwt18rootViewController11environmentySS_So06UIViewH0CAA0aB11EnvironmentOtF",
             "moduleName": "MoneypayWalletSDK",
             "declAttributes": [
               "AccessControl"
@@ -5321,6 +5327,206 @@
           "AccessControl"
         ],
         "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MoneypayWalletEnvironment",
+        "printedName": "MoneypayWalletEnvironment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "dev",
+            "printedName": "dev",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoneypayWalletSDK.MoneypayWalletEnvironment.Type) -> MoneypayWalletSDK.MoneypayWalletEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoneypayWalletEnvironment",
+                    "printedName": "MoneypayWalletSDK.MoneypayWalletEnvironment",
+                    "usr": "s:17MoneypayWalletSDK0aB11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoneypayWalletSDK.MoneypayWalletEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MoneypayWalletEnvironment",
+                        "printedName": "MoneypayWalletSDK.MoneypayWalletEnvironment",
+                        "usr": "s:17MoneypayWalletSDK0aB11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17MoneypayWalletSDK0aB11EnvironmentO3devyA2CmF",
+            "mangledName": "$s17MoneypayWalletSDK0aB11EnvironmentO3devyA2CmF",
+            "moduleName": "MoneypayWalletSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "prod",
+            "printedName": "prod",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoneypayWalletSDK.MoneypayWalletEnvironment.Type) -> MoneypayWalletSDK.MoneypayWalletEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoneypayWalletEnvironment",
+                    "printedName": "MoneypayWalletSDK.MoneypayWalletEnvironment",
+                    "usr": "s:17MoneypayWalletSDK0aB11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoneypayWalletSDK.MoneypayWalletEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MoneypayWalletEnvironment",
+                        "printedName": "MoneypayWalletSDK.MoneypayWalletEnvironment",
+                        "usr": "s:17MoneypayWalletSDK0aB11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17MoneypayWalletSDK0aB11EnvironmentO4prodyA2CmF",
+            "mangledName": "$s17MoneypayWalletSDK0aB11EnvironmentO4prodyA2CmF",
+            "moduleName": "MoneypayWalletSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MoneypayWalletEnvironment",
+                "printedName": "MoneypayWalletSDK.MoneypayWalletEnvironment",
+                "usr": "s:17MoneypayWalletSDK0aB11EnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MoneypayWalletEnvironment",
+                "printedName": "MoneypayWalletSDK.MoneypayWalletEnvironment",
+                "usr": "s:17MoneypayWalletSDK0aB11EnvironmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17MoneypayWalletSDK0aB11EnvironmentO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s17MoneypayWalletSDK0aB11EnvironmentO2eeoiySbAC_ACtFZ",
+            "moduleName": "MoneypayWalletSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MoneypayWalletSDK0aB11EnvironmentO9hashValueSivp",
+            "mangledName": "$s17MoneypayWalletSDK0aB11EnvironmentO9hashValueSivp",
+            "moduleName": "MoneypayWalletSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MoneypayWalletSDK0aB11EnvironmentO9hashValueSivg",
+                "mangledName": "$s17MoneypayWalletSDK0aB11EnvironmentO9hashValueSivg",
+                "moduleName": "MoneypayWalletSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17MoneypayWalletSDK0aB11EnvironmentO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s17MoneypayWalletSDK0aB11EnvironmentO4hash4intoys6HasherVz_tF",
+            "moduleName": "MoneypayWalletSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17MoneypayWalletSDK0aB11EnvironmentO",
+        "mangledName": "$s17MoneypayWalletSDK0aB11EnvironmentO",
+        "moduleName": "MoneypayWalletSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -7716,161 +7922,168 @@
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Services\/Remote\/ApiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 251,
+      "offset": 218,
+      "length": 41,
+      "value": "\"https:\/\/api-dev.moneypay.com.tr\/wallets\""
+    },
+    {
+      "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Services\/Remote\/ApiConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 401,
       "length": 16,
       "value": "\"\/v3\/users\/info\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Services\/Remote\/ApiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 298,
+      "offset": 448,
       "length": 21,
       "value": "\"\/v3\/wallet\/withdraw\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Services\/Remote\/ApiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 356,
+      "offset": 506,
       "length": 31,
       "value": "\"\/v3\/users\/user\/balance\/detail\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Services\/Remote\/ApiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 421,
+      "offset": 571,
       "length": 24,
       "value": "\"\/v3\/users\/wallet\/limit\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Services\/Remote\/ApiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 486,
+      "offset": 636,
       "length": 20,
       "value": "\"\/v3\/wallet\/history\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Services\/Remote\/ApiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 552,
+      "offset": 702,
       "length": 38,
       "value": "\"\/v3\/wallet\/withdraw\/available\/amount\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Services\/Remote\/ApiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 627,
+      "offset": 777,
       "length": 23,
       "value": "\"\/v3\/users\/occupations\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Services\/Remote\/ApiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 687,
+      "offset": 837,
       "length": 27,
       "value": "\"\/v3\/users\/verify\/identity\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Services\/Remote\/ApiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 754,
+      "offset": 904,
       "length": 27,
       "value": "\"\/v3\/users\/kyc\/user\/detail\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Services\/Remote\/ApiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 821,
+      "offset": 971,
       "length": 30,
       "value": "\"\/v3\/users\/kps\/address\/verify\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Services\/Remote\/ApiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 895,
+      "offset": 1045,
       "length": 28,
       "value": "\"v3\/wallet\/withdraw\/preview\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Services\/Remote\/ApiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 960,
+      "offset": 1110,
       "length": 21,
       "value": "\"\/v3\/wallet\/withdraw\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Services\/Remote\/ApiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1012,
+      "offset": 1162,
       "length": 15,
       "value": "\"\/v3\/users\/kyc\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Services\/Remote\/ApiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1057,
+      "offset": 1207,
       "length": 16,
       "value": "\"\/v3\/wallet\/faq\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Services\/Remote\/ApiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1117,
+      "offset": 1267,
       "length": 39,
       "value": "\"\/v3\/wallet\/transaction\/detail\/process\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Services\/Remote\/ApiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1232,
+      "offset": 1382,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Services\/Remote\/ApiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1275,
+      "offset": 1425,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Services\/Remote\/ApiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1316,
+      "offset": 1466,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Services\/Remote\/ApiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1355,
+      "offset": 1505,
       "length": 17,
       "value": "\"Accept-Encoding\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Services\/Remote\/ApiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1232,
+      "offset": 1382,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Services\/Remote\/ApiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1275,
+      "offset": 1425,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Services\/Remote\/ApiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1316,
+      "offset": 1466,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Services\/Remote\/ApiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1355,
+      "offset": 1505,
       "length": 17,
       "value": "\"Accept-Encoding\""
     },
@@ -10564,17 +10777,17 @@
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/MoneypayWallet.swift",
-      "kind": "BooleanLiteral",
-      "offset": 294,
-      "length": 5,
-      "value": "false"
+      "kind": "StringLiteral",
+      "offset": 121,
+      "length": 31,
+      "value": "\"com.colendi.MoneypayWalletSDK\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/MoneypayWallet.swift",
-      "kind": "StringLiteral",
-      "offset": 907,
-      "length": 31,
-      "value": "\"com.colendi.MoneypayWalletSDK\""
+      "kind": "BooleanLiteral",
+      "offset": 404,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Common\/Components\/BottomSheetViewController.swift",

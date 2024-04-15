@@ -123,8 +123,17 @@ public protocol EditImageViewDelegate : AnyObject {
 }
 @_hasMissingDesignatedInitializers public class MoneypayWallet {
   public static var shared: MoneypayWalletSDK.MoneypayWallet
-  public func initialize(jwt: Swift.String, rootViewController: UIKit.UIViewController)
+  public func initialize(jwt: Swift.String, rootViewController: UIKit.UIViewController, environment: MoneypayWalletSDK.MoneypayWalletEnvironment)
   @objc deinit
+}
+public enum MoneypayWalletEnvironment {
+  case dev
+  case prod
+  public static func == (a: MoneypayWalletSDK.MoneypayWalletEnvironment, b: MoneypayWalletSDK.MoneypayWalletEnvironment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public enum ImageScannerControllerError : Swift.Error {
   case authorization
@@ -146,5 +155,7 @@ extension MoneypayWalletSDK.ScannerMode : Swift.Equatable {}
 extension MoneypayWalletSDK.ScannerMode : Swift.Hashable {}
 extension MoneypayWalletSDK.ImageScannerScan.ImageScannerError : Swift.Equatable {}
 extension MoneypayWalletSDK.ImageScannerScan.ImageScannerError : Swift.Hashable {}
+extension MoneypayWalletSDK.MoneypayWalletEnvironment : Swift.Equatable {}
+extension MoneypayWalletSDK.MoneypayWalletEnvironment : Swift.Hashable {}
 extension MoneypayWalletSDK.ImageScannerControllerError : Swift.Equatable {}
 extension MoneypayWalletSDK.ImageScannerControllerError : Swift.Hashable {}
