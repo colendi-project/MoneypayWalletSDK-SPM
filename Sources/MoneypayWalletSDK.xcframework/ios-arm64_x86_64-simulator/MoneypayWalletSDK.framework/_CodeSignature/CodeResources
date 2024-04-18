@@ -14,7 +14,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		DTgM3It06f/O6h/jGYHAEkoR6IQ=
+		G75pAH5oJHT7B4+adrZv3akUC48=
 		</data>
 		<key>BalanceDetailsContentView.nib</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		/ZglBi2hkTyNWR0w+WJ19W37FKE=
+		W0PvR+77/g09mkPm0BVWQvKvqiw=
 		</data>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -162,11 +162,11 @@
 		</data>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nivgMr/+0sbwMqVoYsp+HXCyWlM=
+		AnNXbhUfMQhRjuG6nyJC3UwjJTk=
 		</data>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		/ZglBi2hkTyNWR0w+WJ19W37FKE=
+		W0PvR+77/g09mkPm0BVWQvKvqiw=
 		</data>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -182,7 +182,7 @@
 		</data>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3XhPN40CKovCJv28ujnm6IqAuKE=
+		qYw67b++BF7KVWr01rdrDood7mA=
 		</data>
 		<key>NfcInfoContentView.nib</key>
 		<data>
@@ -318,7 +318,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QMz1UGV7ZgWBN1bUOAU0SBpOOEkKyyIIJ7XYLZtnQeQ=
+			YRPEWBHafLnGnspahKl94QkEQvqZLAp61lt0i5ls4QI=
 			</data>
 		</dict>
 		<key>BalanceDetailsContentView.nib</key>
@@ -542,7 +542,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KKBprnZXUg4hf9oWsYX8+nluOUCo1XxLW9a4Ugaxx5g=
+			fWd1gQ7mRLnhE39PfZJreUtVt9f5d2LMl9Qw0hQ8HdE=
 			</data>
 		</dict>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -570,14 +570,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WWDyGQnGEZq5Spc82pQy1kAf9TNoKAn+pIQ1UNhfgbY=
+			JCt2woc0RpFaWYA2ntKP9hFoFbCYAwy2sZ4i0FSBkr8=
 			</data>
 		</dict>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KKBprnZXUg4hf9oWsYX8+nluOUCo1XxLW9a4Ugaxx5g=
+			fWd1gQ7mRLnhE39PfZJreUtVt9f5d2LMl9Qw0hQ8HdE=
 			</data>
 		</dict>
 		<key>Modules/MoneypayWalletSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -605,7 +605,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dr7ohkBcYExzPrON4hGzTuxBJC7Gp8G9xQRWSfM+MeY=
+			3fXOvD2R3df4DAG0KSWJcr2f+tiobnVQJedTyzKltZ4=
 			</data>
 		</dict>
 		<key>NfcInfoContentView.nib</key>

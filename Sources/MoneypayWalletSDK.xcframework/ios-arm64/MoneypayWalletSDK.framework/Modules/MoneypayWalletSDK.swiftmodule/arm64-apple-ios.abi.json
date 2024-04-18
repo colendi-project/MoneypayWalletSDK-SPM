@@ -5570,16 +5570,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MoneypayWalletSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -9261,7 +9251,7 @@
       "kind": "StringLiteral",
       "offset": 1215,
       "length": 9,
-      "value": "\"#3B2ED0\""
+      "value": "\"#2F67E4\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Constants\/MWColor.swift",
@@ -9289,7 +9279,7 @@
       "kind": "StringLiteral",
       "offset": 1535,
       "length": 9,
-      "value": "\"#3B2ED0\""
+      "value": "\"#2F67E4\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Constants\/MWColor.swift",
@@ -9331,7 +9321,7 @@
       "kind": "StringLiteral",
       "offset": 1949,
       "length": 9,
-      "value": "\"#3B2ED0\""
+      "value": "\"#2F67E4\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Constants\/MWColor.swift",
@@ -9345,7 +9335,7 @@
       "kind": "StringLiteral",
       "offset": 2119,
       "length": 9,
-      "value": "\"#3B2ED0\""
+      "value": "\"#2F67E4\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Constants\/MWColor.swift",
@@ -9387,7 +9377,7 @@
       "kind": "StringLiteral",
       "offset": 2653,
       "length": 9,
-      "value": "\"#3B2ED0\""
+      "value": "\"#2F67E4\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Constants\/MWColor.swift",
@@ -9408,7 +9398,7 @@
       "kind": "StringLiteral",
       "offset": 2868,
       "length": 9,
-      "value": "\"#3B2ED0\""
+      "value": "\"#2F67E4\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Constants\/MWColor.swift",
@@ -9492,7 +9482,7 @@
       "kind": "StringLiteral",
       "offset": 3770,
       "length": 9,
-      "value": "\"#3B2ED0\""
+      "value": "\"#2F67E4\""
     },
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Constants\/MWColor.swift",
@@ -9973,7 +9963,7 @@
     {
       "filePath": "\/Users\/gokberkbardakci\/code\/moneypay\/MoneypayWalletSDK\/framework\/MoneypayWalletSDK\/MoneypayWalletSDK\/Services\/Local\/UIManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2260,
+      "offset": 2261,
       "length": 5,
       "value": "false"
     },
